@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A7050B3E96EE54BE02BA60C /* libPods-ShipwrecksObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E31E7D7416F37C160929768 /* libPods-ShipwrecksObjc.a */; };
+		7951BC4820D27FFC005FFB60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7951BC4720D27FFC005FFB60 /* AppDelegate.m */; };
+		7951BC4E20D27FFC005FFB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7951BC4C20D27FFC005FFB60 /* Main.storyboard */; };
+		7951BC5020D27FFE005FFB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7951BC4F20D27FFE005FFB60 /* Assets.xcassets */; };
+		7951BC5320D27FFE005FFB60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7951BC5120D27FFE005FFB60 /* LaunchScreen.storyboard */; };
+		7951BC5620D27FFE005FFB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7951BC5520D27FFE005FFB60 /* main.m */; };
+		7951BC6020D27FFF005FFB60 /* ShipwrecksObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7951BC5F20D27FFF005FFB60 /* ShipwrecksObjcTests.m */; };
+		79BC1F7A20D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F7520D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.m */; };
+		79BC1F7B20D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F7820D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.m */; };
+		79BC1F8120D2819200CC38ED /* UploadFileRemoteRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F7E20D2819200CC38ED /* UploadFileRemoteRepository.m */; };
+		79BC1F8520D281A400CC38ED /* IMG_1803.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 79BC1F8320D281A400CC38ED /* IMG_1803.JPG */; };
+		79BC1F8620D281A400CC38ED /* clau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79BC1F8420D281A400CC38ED /* clau.jpg */; };
+		79BC1F8E20D281C800CC38ED /* WreckModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F8A20D281C800CC38ED /* WreckModel.m */; };
+		79BC1F8F20D281C800CC38ED /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F8C20D281C800CC38ED /* UserModel.m */; };
+		79BC1F9620D281CF00CC38ED /* UploadFileComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F9320D281CF00CC38ED /* UploadFileComponents.m */; };
+		79BC1F9720D281CF00CC38ED /* UploadImageFileComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F9520D281CF00CC38ED /* UploadImageFileComponents.m */; };
+		79BC1F9C20D281D400CC38ED /* HTTPClientSimpleImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F9B20D281D400CC38ED /* HTTPClientSimpleImpl.m */; };
+		79BC1FA020D281DE00CC38ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC1F9E20D281DE00CC38ED /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7951BC5C20D27FFF005FFB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7951BC3B20D27FFC005FFB60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7951BC4220D27FFC005FFB60;
+			remoteInfo = ShipwrecksObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066B882ED46538361A0D2180 /* Pods-ShipwrecksObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipwrecksObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShipwrecksObjc/Pods-ShipwrecksObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		1E31E7D7416F37C160929768 /* libPods-ShipwrecksObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShipwrecksObjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C919A31EDD61ABFDD8B62F /* Pods-ShipwrecksObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipwrecksObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShipwrecksObjc/Pods-ShipwrecksObjc.release.xcconfig"; sourceTree = "<group>"; };
+		7951BC4320D27FFC005FFB60 /* ShipwrecksObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipwrecksObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7951BC4620D27FFC005FFB60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7951BC4720D27FFC005FFB60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7951BC4D20D27FFC005FFB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7951BC4F20D27FFE005FFB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7951BC5220D27FFE005FFB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7951BC5420D27FFE005FFB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7951BC5520D27FFE005FFB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7951BC5B20D27FFF005FFB60 /* ShipwrecksObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipwrecksObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7951BC5F20D27FFF005FFB60 /* ShipwrecksObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShipwrecksObjcTests.m; sourceTree = "<group>"; };
+		7951BC6120D27FFF005FFB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BC1F7420D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipwreckASIHTTPRequestRemoteRepository.h; sourceTree = "<group>"; };
+		79BC1F7520D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipwreckASIHTTPRequestRemoteRepository.m; sourceTree = "<group>"; };
+		79BC1F7620D2817E00CC38ED /* IShipwreckRemoteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IShipwreckRemoteRepository.h; sourceTree = "<group>"; };
+		79BC1F7820D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipwreckSimpleRemoteRepository.m; sourceTree = "<group>"; };
+		79BC1F7920D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipwreckSimpleRemoteRepository.h; sourceTree = "<group>"; };
+		79BC1F7E20D2819200CC38ED /* UploadFileRemoteRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFileRemoteRepository.m; sourceTree = "<group>"; };
+		79BC1F7F20D2819200CC38ED /* UploadFileRemoteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFileRemoteRepository.h; sourceTree = "<group>"; };
+		79BC1F8020D2819200CC38ED /* IUploadRemoteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUploadRemoteRepository.h; sourceTree = "<group>"; };
+		79BC1F8320D281A400CC38ED /* IMG_1803.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1803.JPG; sourceTree = "<group>"; };
+		79BC1F8420D281A400CC38ED /* clau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clau.jpg; sourceTree = "<group>"; };
+		79BC1F8920D281C800CC38ED /* WreckModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WreckModel.h; sourceTree = "<group>"; };
+		79BC1F8A20D281C800CC38ED /* WreckModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WreckModel.m; sourceTree = "<group>"; };
+		79BC1F8C20D281C800CC38ED /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		79BC1F8D20D281C800CC38ED /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		79BC1F9120D281CF00CC38ED /* UploadImageFileComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageFileComponents.h; sourceTree = "<group>"; };
+		79BC1F9320D281CF00CC38ED /* UploadFileComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFileComponents.m; sourceTree = "<group>"; };
+		79BC1F9420D281CF00CC38ED /* UploadFileComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFileComponents.h; sourceTree = "<group>"; };
+		79BC1F9520D281CF00CC38ED /* UploadImageFileComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageFileComponents.m; sourceTree = "<group>"; };
+		79BC1F9920D281D400CC38ED /* IHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHTTPClient.h; sourceTree = "<group>"; };
+		79BC1F9A20D281D400CC38ED /* HTTPClientSimpleImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClientSimpleImpl.h; sourceTree = "<group>"; };
+		79BC1F9B20D281D400CC38ED /* HTTPClientSimpleImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClientSimpleImpl.m; sourceTree = "<group>"; };
+		79BC1F9E20D281DE00CC38ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79BC1F9F20D281DE00CC38ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7951BC4020D27FFC005FFB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7050B3E96EE54BE02BA60C /* libPods-ShipwrecksObjc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7951BC5820D27FFF005FFB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704DF3621A0FCB025F4D85D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066B882ED46538361A0D2180 /* Pods-ShipwrecksObjc.debug.xcconfig */,
+				69C919A31EDD61ABFDD8B62F /* Pods-ShipwrecksObjc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7951BC3A20D27FFC005FFB60 = {
+			isa = PBXGroup;
+			children = (
+				7951BC4520D27FFC005FFB60 /* ShipwrecksObjc */,
+				7951BC5E20D27FFF005FFB60 /* ShipwrecksObjcTests */,
+				7951BC4420D27FFC005FFB60 /* Products */,
+				704DF3621A0FCB025F4D85D4 /* Pods */,
+				9CCE0CFBE2AA21E8D863C42E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7951BC4420D27FFC005FFB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7951BC4320D27FFC005FFB60 /* ShipwrecksObjc.app */,
+				7951BC5B20D27FFF005FFB60 /* ShipwrecksObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7951BC4520D27FFC005FFB60 /* ShipwrecksObjc */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F9D20D281DE00CC38ED /* ViewControllers */,
+				79BC1F9820D281D400CC38ED /* HTTPClient */,
+				79BC1F9020D281CF00CC38ED /* FilesUploadStuct */,
+				79BC1F8720D281C800CC38ED /* DomainObjects */,
+				79BC1F8220D281A400CC38ED /* Resources */,
+				79BC1F7120D2814E00CC38ED /* Repositories */,
+				7951BC4620D27FFC005FFB60 /* AppDelegate.h */,
+				7951BC4720D27FFC005FFB60 /* AppDelegate.m */,
+				7951BC4C20D27FFC005FFB60 /* Main.storyboard */,
+				7951BC4F20D27FFE005FFB60 /* Assets.xcassets */,
+				7951BC5120D27FFE005FFB60 /* LaunchScreen.storyboard */,
+				7951BC5420D27FFE005FFB60 /* Info.plist */,
+				7951BC5520D27FFE005FFB60 /* main.m */,
+			);
+			path = ShipwrecksObjc;
+			sourceTree = "<group>";
+		};
+		7951BC5E20D27FFF005FFB60 /* ShipwrecksObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				7951BC5F20D27FFF005FFB60 /* ShipwrecksObjcTests.m */,
+				7951BC6120D27FFF005FFB60 /* Info.plist */,
+			);
+			path = ShipwrecksObjcTests;
+			sourceTree = "<group>";
+		};
+		79BC1F7120D2814E00CC38ED /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7C20D2819200CC38ED /* FileUploadRemoteRepository */,
+				79BC1F7220D2817E00CC38ED /* ShipwrecksRemoteRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		79BC1F7220D2817E00CC38ED /* ShipwrecksRemoteRepository */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7320D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepositoryImpl */,
+				79BC1F7620D2817E00CC38ED /* IShipwreckRemoteRepository.h */,
+				79BC1F7720D2817E00CC38ED /* ShipwrecksSimpleRemoteRepositoryImpl */,
+			);
+			path = ShipwrecksRemoteRepository;
+			sourceTree = "<group>";
+		};
+		79BC1F7320D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7420D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.h */,
+				79BC1F7520D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.m */,
+			);
+			path = ShipwreckASIHTTPRequestRemoteRepositoryImpl;
+			sourceTree = "<group>";
+		};
+		79BC1F7720D2817E00CC38ED /* ShipwrecksSimpleRemoteRepositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7820D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.m */,
+				79BC1F7920D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.h */,
+			);
+			path = ShipwrecksSimpleRemoteRepositoryImpl;
+			sourceTree = "<group>";
+		};
+		79BC1F7C20D2819200CC38ED /* FileUploadRemoteRepository */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7D20D2819200CC38ED /* Implementation */,
+				79BC1F8020D2819200CC38ED /* IUploadRemoteRepository.h */,
+			);
+			path = FileUploadRemoteRepository;
+			sourceTree = "<group>";
+		};
+		79BC1F7D20D2819200CC38ED /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F7E20D2819200CC38ED /* UploadFileRemoteRepository.m */,
+				79BC1F7F20D2819200CC38ED /* UploadFileRemoteRepository.h */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		79BC1F8220D281A400CC38ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F8320D281A400CC38ED /* IMG_1803.JPG */,
+				79BC1F8420D281A400CC38ED /* clau.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79BC1F8720D281C800CC38ED /* DomainObjects */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F8820D281C800CC38ED /* WreckModel */,
+				79BC1F8B20D281C800CC38ED /* UserModel */,
+			);
+			path = DomainObjects;
+			sourceTree = "<group>";
+		};
+		79BC1F8820D281C800CC38ED /* WreckModel */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F8920D281C800CC38ED /* WreckModel.h */,
+				79BC1F8A20D281C800CC38ED /* WreckModel.m */,
+			);
+			path = WreckModel;
+			sourceTree = "<group>";
+		};
+		79BC1F8B20D281C800CC38ED /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F8C20D281C800CC38ED /* UserModel.m */,
+				79BC1F8D20D281C800CC38ED /* UserModel.h */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		79BC1F9020D281CF00CC38ED /* FilesUploadStuct */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F9120D281CF00CC38ED /* UploadImageFileComponents.h */,
+				79BC1F9220D281CF00CC38ED /* BaseClass */,
+				79BC1F9520D281CF00CC38ED /* UploadImageFileComponents.m */,
+			);
+			path = FilesUploadStuct;
+			sourceTree = "<group>";
+		};
+		79BC1F9220D281CF00CC38ED /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F9320D281CF00CC38ED /* UploadFileComponents.m */,
+				79BC1F9420D281CF00CC38ED /* UploadFileComponents.h */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		79BC1F9820D281D400CC38ED /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F9920D281D400CC38ED /* IHTTPClient.h */,
+				79BC1F9A20D281D400CC38ED /* HTTPClientSimpleImpl.h */,
+				79BC1F9B20D281D400CC38ED /* HTTPClientSimpleImpl.m */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		79BC1F9D20D281DE00CC38ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79BC1F9E20D281DE00CC38ED /* ViewController.m */,
+				79BC1F9F20D281DE00CC38ED /* ViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9CCE0CFBE2AA21E8D863C42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E31E7D7416F37C160929768 /* libPods-ShipwrecksObjc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7951BC4220D27FFC005FFB60 /* ShipwrecksObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7951BC6420D27FFF005FFB60 /* Build configuration list for PBXNativeTarget "ShipwrecksObjc" */;
+			buildPhases = (
+				E74E783017815A34B231DADF /* [CP] Check Pods Manifest.lock */,
+				7951BC3F20D27FFC005FFB60 /* Sources */,
+				7951BC4020D27FFC005FFB60 /* Frameworks */,
+				7951BC4120D27FFC005FFB60 /* Resources */,
+				281F2484D84C99A6F6E89B5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipwrecksObjc;
+			productName = ShipwrecksObjc;
+			productReference = 7951BC4320D27FFC005FFB60 /* ShipwrecksObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7951BC5A20D27FFF005FFB60 /* ShipwrecksObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7951BC6720D27FFF005FFB60 /* Build configuration list for PBXNativeTarget "ShipwrecksObjcTests" */;
+			buildPhases = (
+				7951BC5720D27FFF005FFB60 /* Sources */,
+				7951BC5820D27FFF005FFB60 /* Frameworks */,
+				7951BC5920D27FFF005FFB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7951BC5D20D27FFF005FFB60 /* PBXTargetDependency */,
+			);
+			name = ShipwrecksObjcTests;
+			productName = ShipwrecksObjcTests;
+			productReference = 7951BC5B20D27FFF005FFB60 /* ShipwrecksObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7951BC3B20D27FFC005FFB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Claudiu RUS";
+				TargetAttributes = {
+					7951BC4220D27FFC005FFB60 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					7951BC5A20D27FFF005FFB60 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7951BC4220D27FFC005FFB60;
+					};
+				};
+			};
+			buildConfigurationList = 7951BC3E20D27FFC005FFB60 /* Build configuration list for PBXProject "ShipwrecksObjc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7951BC3A20D27FFC005FFB60;
+			productRefGroup = 7951BC4420D27FFC005FFB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7951BC4220D27FFC005FFB60 /* ShipwrecksObjc */,
+				7951BC5A20D27FFF005FFB60 /* ShipwrecksObjcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7951BC4120D27FFC005FFB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7951BC5320D27FFE005FFB60 /* LaunchScreen.storyboard in Resources */,
+				79BC1F8620D281A400CC38ED /* clau.jpg in Resources */,
+				7951BC5020D27FFE005FFB60 /* Assets.xcassets in Resources */,
+				7951BC4E20D27FFC005FFB60 /* Main.storyboard in Resources */,
+				79BC1F8520D281A400CC38ED /* IMG_1803.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7951BC5920D27FFF005FFB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		281F2484D84C99A6F6E89B5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShipwrecksObjc/Pods-ShipwrecksObjc-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShipwrecksObjc/Pods-ShipwrecksObjc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74E783017815A34B231DADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShipwrecksObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7951BC3F20D27FFC005FFB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BC1F8E20D281C800CC38ED /* WreckModel.m in Sources */,
+				79BC1F8120D2819200CC38ED /* UploadFileRemoteRepository.m in Sources */,
+				79BC1F7B20D2817E00CC38ED /* ShipwreckSimpleRemoteRepository.m in Sources */,
+				79BC1F9620D281CF00CC38ED /* UploadFileComponents.m in Sources */,
+				7951BC5620D27FFE005FFB60 /* main.m in Sources */,
+				79BC1FA020D281DE00CC38ED /* ViewController.m in Sources */,
+				79BC1F9720D281CF00CC38ED /* UploadImageFileComponents.m in Sources */,
+				79BC1F7A20D2817E00CC38ED /* ShipwreckASIHTTPRequestRemoteRepository.m in Sources */,
+				79BC1F8F20D281C800CC38ED /* UserModel.m in Sources */,
+				7951BC4820D27FFC005FFB60 /* AppDelegate.m in Sources */,
+				79BC1F9C20D281D400CC38ED /* HTTPClientSimpleImpl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7951BC5720D27FFF005FFB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7951BC6020D27FFF005FFB60 /* ShipwrecksObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7951BC5D20D27FFF005FFB60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7951BC4220D27FFC005FFB60 /* ShipwrecksObjc */;
+			targetProxy = 7951BC5C20D27FFF005FFB60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7951BC4C20D27FFC005FFB60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7951BC4D20D27FFC005FFB60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7951BC5120D27FFE005FFB60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7951BC5220D27FFE005FFB60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7951BC6220D27FFF005FFB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7951BC6320D27FFF005FFB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7951BC6520D27FFF005FFB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066B882ED46538361A0D2180 /* Pods-ShipwrecksObjc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SJKK94PV;
+				INFOPLIST_FILE = ShipwrecksObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsdummyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7951BC6620D27FFF005FFB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C919A31EDD61ABFDD8B62F /* Pods-ShipwrecksObjc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SJKK94PV;
+				INFOPLIST_FILE = ShipwrecksObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsdummyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7951BC6820D27FFF005FFB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SJKK94PV;
+				INFOPLIST_FILE = ShipwrecksObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claudiu-RUS.ShipwrecksObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipwrecksObjc.app/ShipwrecksObjc";
+			};
+			name = Debug;
+		};
+		7951BC6920D27FFF005FFB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SJKK94PV;
+				INFOPLIST_FILE = ShipwrecksObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claudiu-RUS.ShipwrecksObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipwrecksObjc.app/ShipwrecksObjc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7951BC3E20D27FFC005FFB60 /* Build configuration list for PBXProject "ShipwrecksObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7951BC6220D27FFF005FFB60 /* Debug */,
+				7951BC6320D27FFF005FFB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7951BC6420D27FFF005FFB60 /* Build configuration list for PBXNativeTarget "ShipwrecksObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7951BC6520D27FFF005FFB60 /* Debug */,
+				7951BC6620D27FFF005FFB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7951BC6720D27FFF005FFB60 /* Build configuration list for PBXNativeTarget "ShipwrecksObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7951BC6820D27FFF005FFB60 /* Debug */,
+				7951BC6920D27FFF005FFB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7951BC3B20D27FFC005FFB60 /* Project object */;
+}
